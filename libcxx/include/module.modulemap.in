@@ -2044,6 +2044,11 @@ module std [system] {
     export *
   }
 
+  module stdfloat {
+    header "stdfloat"
+    export *
+  }
+
   module stop_token {
     module atomic_unique_lock     { header "__stop_token/atomic_unique_lock.h" }
     module intrusive_list_view    { header "__stop_token/intrusive_list_view.h" }
